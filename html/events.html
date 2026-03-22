@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ekashunyam Events</title>
+  <link rel="stylesheet" href="../css/events.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@500&family=Libre+Baskerville&family=Montserrat:wght@500&family=Spectral:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<h1 class="events-title">The Ekashunyam's Eight Realms</h1>
+
+<!-- CAROUSEL AREA -->
+<div class="events-wrapper">
+
+  <!-- LEFT ARROW -->
+  <div class="nav left" onclick="prevCard()">&#10094;</div>
+
+  <!-- CARDS -->
+  <div class="events-scroll">
+
+    <div class="event-card" onclick="openEvent('event1.html')">
+      <img src="../.Assets/UICards/IT_Quiz.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event2.html')">
+      <img src="../.Assets/UICards/IT_Manager.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event3.html')">
+      <img src="../.Assets/UICards/Coding&Debugging.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event4.html')">
+      <img src="../.Assets/UICards/WebDesigning.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event5.html')">
+      <img src="../.Assets/UICards/ProductLaunch.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event6.html')">
+      <img src="../.Assets/UICards/ReelsMaking.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event7.html')">
+      <img src="../.Assets/UICards/Gaming.png">
+    </div>
+
+    <div class="event-card" onclick="openEvent('event8.html')">
+      <img src="../.Assets/UICards/CulturalDance.png">
+    </div>
+
+  </div>
+
+  <!-- RIGHT ARROW -->
+  <div class="nav right" onclick="nextCard()">&#10095;</div>
+
+</div>
+
+<!-- BOTTOM BUTTONS -->
+<div class="bottom-controls">
+  <button onclick="goPortal()">PORTAL</button>
+  <button onclick="goContact()">CONTACT</button>
+  <button onclick="goRegister()">REGISTER</button>
+</div>
+
+<script src="../js/events.js"></script>
+
+</body>
+</html>
