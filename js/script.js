@@ -59,20 +59,31 @@ if (video) {
 
 /* ================= HOME PAGE BUTTONS ================= */
 
-const backBtn = document.getElementById("backBtn");
-const exploreBtn = document.getElementById("exploreBtn");
+document.addEventListener("DOMContentLoaded", () => {
 
-if(backBtn){
-backBtn.onclick = () => {
-window.location.href = "intro.html";
-};
-}
+  const backBtn = document.getElementById("backBtn");
+  const exploreBtn = document.getElementById("exploreBtn");
+  const portalBtn = document.getElementById("portalBtn");
 
-if(exploreBtn){
-exploreBtn.onclick = () => {
-window.location.href = "pool.html";
-};
-}
+  if(backBtn){
+    backBtn.onclick = () => {
+      window.location.href = "intro.html";
+    };
+  }
+
+  if(exploreBtn){
+    exploreBtn.onclick = () => {
+      window.location.href = "pool.html";
+    };
+  }
+
+  if(portalBtn){
+    portalBtn.onclick = () => {
+      window.location.href = "portal.html";
+    };
+  }
+
+});
 
 // ================= EKASHUNYAM PORTAL JS =================
     // ================= PORTAL ITEMS =================
